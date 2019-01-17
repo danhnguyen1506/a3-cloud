@@ -3,10 +3,8 @@
 
     include 'dbconfig.php';
 
-    //Token like system
-    if(!isset($_SESSION['loginid'])){
-        header("Location: login.php");
-    } 
+    
+    
 ?>
 
 <!doctype html>
