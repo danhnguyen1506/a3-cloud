@@ -1,10 +1,7 @@
 <?php
     session_start();
 
-    //Token like system
-    if(!isset($_SESSION['loginid'])){
-        header("Location: login.php");
-    }
+   
 ?>
 
 <!doctype html>
