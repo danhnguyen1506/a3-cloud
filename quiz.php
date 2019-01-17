@@ -3,11 +3,7 @@
     
     include 'dbconfig.php';
 
-    if(!isset($_SESSION['loginid'])){
-        header("Location: login.php");
-    }
-
-    $userid = $_SESSION['loginid'];
+   
     $questionid = $_SESSION['quiztime'];
 
     $mysqli = new mysqli($hostname, $username, $password, $dbname, $port) or die(mysqli_error($mysqli));
